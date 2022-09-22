@@ -28,5 +28,8 @@ all_students = [
 cur.execute("SELECT * FROM students ")
 print(cur.fetchall())
 
+#To commit 
 #conn.commit()
+
+#To close the connection
 conn.close()    
